@@ -47,6 +47,6 @@ export default {
     resize: none;
     box-sizing: border-box;
     overflow: hidden;
-    min-height: 30px;
+    min-height: 60px;
   }
 </style>

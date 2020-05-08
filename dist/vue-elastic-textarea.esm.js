@@ -213,8 +213,8 @@ var __vue_staticRenderFns__ = [];
 
 const __vue_inject_styles__ = function (inject) {
   if (!inject) return;
-  inject("data-v-18f35518_0", {
-    source: ".elastic__textarea[data-v-18f35518]{resize:none;box-sizing:border-box;overflow:hidden;min-height:30px}",
+  inject("data-v-5c857ab7_0", {
+    source: ".elastic__textarea[data-v-5c857ab7]{resize:none;box-sizing:border-box;overflow:hidden;min-height:60px}",
     map: undefined,
     media: undefined
   });
@@ -222,7 +222,7 @@ const __vue_inject_styles__ = function (inject) {
 /* scoped */
 
 
-const __vue_scope_id__ = "data-v-18f35518";
+const __vue_scope_id__ = "data-v-5c857ab7";
 /* module identifier */
 
 const __vue_module_identifier__ = undefined;
