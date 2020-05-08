@@ -12,7 +12,7 @@ var script = {
   name: 'VueElasticTextarea',
   data: function data() {
     return {
-      currentValue: this.value.replace(/(<([^>]+)>)/ig, "")
+      currentValue: this.value ? this.value.replace(/(<([^>]+)>)/ig, "") : ''
     };
   },
   props: {
@@ -195,8 +195,8 @@ var __vue_staticRenderFns__ = [];
 
 var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
   if (!inject) return;
-  inject("data-v-3e2efa86_0", {
-    source: ".elastic__textarea[data-v-3e2efa86]{resize:none;box-sizing:border-box;overflow:hidden;min-height:60px}",
+  inject("data-v-65716fd2_0", {
+    source: ".elastic__textarea[data-v-65716fd2]{resize:none;box-sizing:border-box;overflow:hidden;min-height:60px}",
     map: undefined,
     media: undefined
   });
@@ -204,10 +204,10 @@ var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
 /* scoped */
 
 
-var __vue_scope_id__ = "data-v-3e2efa86";
+var __vue_scope_id__ = "data-v-65716fd2";
 /* module identifier */
 
-var __vue_module_identifier__ = "data-v-3e2efa86";
+var __vue_module_identifier__ = "data-v-65716fd2";
 /* functional template */
 
 var __vue_is_functional_template__ = false;

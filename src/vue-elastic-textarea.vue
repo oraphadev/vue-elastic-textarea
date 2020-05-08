@@ -13,7 +13,7 @@ export default {
   name: 'VueElasticTextarea',
   data() {
     return {
-      currentValue: this.value.replace(/(<([^>]+)>)/ig,""),
+      currentValue: this.value ? this.value.replace(/(<([^>]+)>)/ig,"") : '',
     };
   },
   props: {
