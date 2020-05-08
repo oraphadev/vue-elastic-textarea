@@ -1,6 +1,6 @@
 {
   "name": "vue-elastic-textarea",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple elastic textarea component for Vue.js",
   "main": "dist/vue-elastic-textarea.ssr.js",
   "browser": "dist/vue-elastic-textarea.esm.js",
@@ -50,9 +50,9 @@
   "engines": {
     "node": ">=10"
   },
-	"keywords": [
-		"vue",
-		"vue-elastic-textarea",
-		"textarea"
-	]
+  "keywords": [
+    "vue",
+    "vue-elastic-textarea",
+    "textarea"
+  ]
 }

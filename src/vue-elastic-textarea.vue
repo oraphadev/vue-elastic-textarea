@@ -12,7 +12,7 @@ export default {
   name: 'VueElasticTextarea',
   data() {
     return {
-      currentValue: this.value,
+      currentValue: this.value.replace(/(<([^>]+)>)/ig,""),
     };
   },
   props: {
@@ -27,7 +27,7 @@ export default {
     },
   },
   methods: {
-    resize(event) {
+    resize() {
       const textarea = this.$refs.textarea;
       textarea.style.height = 'auto';
       textarea.style.height = textarea.scrollHeight + textarea.offsetHeight - textarea.clientHeight + "px";
