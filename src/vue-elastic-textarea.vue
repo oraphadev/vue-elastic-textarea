@@ -31,10 +31,6 @@ export default {
       const textarea = this.$refs.textarea;
       textarea.style.height = 'auto';
       textarea.style.height = textarea.scrollHeight + textarea.offsetHeight - textarea.clientHeight + "px";
-      console.log(textarea.scrollHeight);
-      console.log(textarea.offsetHeight);
-      console.log(textarea.clientHeight);
-      console.log(textarea.style.height);
       this.$emit('input', this.currentValue);
     },
   },
@@ -51,5 +47,6 @@ export default {
     resize: none;
     box-sizing: border-box;
     overflow: hidden;
+    min-height: 30px;
   }
 </style>

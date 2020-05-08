@@ -30,10 +30,6 @@ var script = {
       var textarea = this.$refs.textarea;
       textarea.style.height = 'auto';
       textarea.style.height = textarea.scrollHeight + textarea.offsetHeight - textarea.clientHeight + "px";
-      console.log(textarea.scrollHeight);
-      console.log(textarea.offsetHeight);
-      console.log(textarea.clientHeight);
-      console.log(textarea.style.height);
       this.$emit('input', this.currentValue);
     }
   },
@@ -197,8 +193,8 @@ var __vue_staticRenderFns__ = [];
 
 var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
   if (!inject) return;
-  inject("data-v-8e9f32b0_0", {
-    source: ".elastic__textarea[data-v-8e9f32b0]{resize:none;box-sizing:border-box;overflow:hidden}",
+  inject("data-v-18f35518_0", {
+    source: ".elastic__textarea[data-v-18f35518]{resize:none;box-sizing:border-box;overflow:hidden;min-height:30px}",
     map: undefined,
     media: undefined
   });
@@ -206,10 +202,10 @@ var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
 /* scoped */
 
 
-var __vue_scope_id__ = "data-v-8e9f32b0";
+var __vue_scope_id__ = "data-v-18f35518";
 /* module identifier */
 
-var __vue_module_identifier__ = "data-v-8e9f32b0";
+var __vue_module_identifier__ = "data-v-18f35518";
 /* functional template */
 
 var __vue_is_functional_template__ = false;

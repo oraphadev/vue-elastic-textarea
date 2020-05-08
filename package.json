@@ -1,6 +1,6 @@
 {
   "name": "vue-elastic-textarea",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple elastic textarea component for Vue.js",
   "main": "dist/vue-elastic-textarea.ssr.js",
   "browser": "dist/vue-elastic-textarea.esm.js",
