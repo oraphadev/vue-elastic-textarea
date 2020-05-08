@@ -3,6 +3,7 @@
     class="elastic__textarea"
     v-model="currentValue"
     @input="resize"
+    @focus="resize"
     ref="textarea"
   ></textarea>
 </template>

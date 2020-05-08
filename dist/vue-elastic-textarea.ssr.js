@@ -7,6 +7,7 @@
 //
 //
 //
+//
 var script = {
   name: 'VueElasticTextarea',
   data: function data() {
@@ -183,7 +184,8 @@ var __vue_render__ = function __vue_render__() {
         }
 
         _vm.currentValue = $event.target.value;
-      }, _vm.resize]
+      }, _vm.resize],
+      "focus": _vm.resize
     }
   }, []);
 };
@@ -193,8 +195,8 @@ var __vue_staticRenderFns__ = [];
 
 var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
   if (!inject) return;
-  inject("data-v-205827cd_0", {
-    source: ".elastic__textarea[data-v-205827cd]{resize:none;box-sizing:border-box;overflow:hidden;min-height:60px}",
+  inject("data-v-3e2efa86_0", {
+    source: ".elastic__textarea[data-v-3e2efa86]{resize:none;box-sizing:border-box;overflow:hidden;min-height:60px}",
     map: undefined,
     media: undefined
   });
@@ -202,10 +204,10 @@ var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
 /* scoped */
 
 
-var __vue_scope_id__ = "data-v-205827cd";
+var __vue_scope_id__ = "data-v-3e2efa86";
 /* module identifier */
 
-var __vue_module_identifier__ = "data-v-205827cd";
+var __vue_module_identifier__ = "data-v-3e2efa86";
 /* functional template */
 
 var __vue_is_functional_template__ = false;

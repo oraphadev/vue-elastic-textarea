@@ -7,6 +7,7 @@
 //
 //
 //
+//
 var script = {
   name: 'VueElasticTextarea',
 
@@ -203,7 +204,8 @@ var __vue_render__ = function () {
         }
 
         _vm.currentValue = $event.target.value;
-      }, _vm.resize]
+      }, _vm.resize],
+      "focus": _vm.resize
     }
   });
 };
@@ -213,8 +215,8 @@ var __vue_staticRenderFns__ = [];
 
 const __vue_inject_styles__ = function (inject) {
   if (!inject) return;
-  inject("data-v-205827cd_0", {
-    source: ".elastic__textarea[data-v-205827cd]{resize:none;box-sizing:border-box;overflow:hidden;min-height:60px}",
+  inject("data-v-3e2efa86_0", {
+    source: ".elastic__textarea[data-v-3e2efa86]{resize:none;box-sizing:border-box;overflow:hidden;min-height:60px}",
     map: undefined,
     media: undefined
   });
@@ -222,7 +224,7 @@ const __vue_inject_styles__ = function (inject) {
 /* scoped */
 
 
-const __vue_scope_id__ = "data-v-205827cd";
+const __vue_scope_id__ = "data-v-3e2efa86";
 /* module identifier */
 
 const __vue_module_identifier__ = undefined;
